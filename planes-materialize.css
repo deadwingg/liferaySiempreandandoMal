@@ -1,0 +1,53 @@
+/* MODALES*/
+.pnt-modal-codificada, 
+.pnt-modal-beneficio{
+    font-size: 1.0rem;
+    font-weight: normal;
+    max-height: 50%;
+    width: 60%;
+    height: 50%;
+}
+
+.aui .pnt-modal-codificada .modal-content, 
+.aui .pnt-modal-beneficio .modal-content{
+    min-height: 0;
+}
+
+.pnt-modal-codificada .btn,
+.pnt-modal-beneficio .btn{
+    background: inherit;
+}
+.pnt-modal-codificada .btn:hover,
+.pnt-modal-beneficio .btn:hover{
+    color: #fff;
+}
+.pnt-modal-codificada .pnt-modal-titulo,
+.pnt-modal-beneficio .pnt-modal-titulo {
+    font-size: 2.2rem;
+}
+.pnt-modal-codificada .highlight,
+.pnt-modal-beneficio .highlight{
+    background: inherit;
+    font-weight: normal;
+}
+.pnt-modal-codificada .btn-floating i[class^="icon-"],
+.pnt-modal-beneficio .btn-floating i[class^="icon-"]{
+    line-height: 40px;
+}
+
+.aui .modal-content .pnt-codificada-info * ,
+.aui .modal-content .pnt-beneficio-info * {
+    text-align:left;
+}
+
+.c-plan__body .c-plan__ca .pnt-boton-beneficios{
+    padding: 0;
+}
+
+.pnt-slider {
+    user-select: auto;
+}
+
+.modal-content,.c-plan{
+    user-select:text;
+}
